@@ -1,0 +1,26 @@
+#!/bin/sh
+
+set -x
+set -e
+
+JEKYLL=`which jekyll`
+RSYNC=`which rsync`
+DESTINATION="colin@boson.neyana.eu:~/www"
+
+CURRENT=`git branch | grep '\*' | awk '{print $2}'`
+if [ "master" = "${CURRENT}" ]
+then
+  echo "already on master"
+  exit 1
+else
+  git checkout master && \
+  (git pull origin master || (git checkout ${CURRENT} && exit 1)) && \
+  git merge --no-ff ${CURRENT} && \
+  git push -u origin master
+fi
+
+JEKYLL_ENV=production $JEKYLL build && \
+  cd _site && \
+  $RSYNC --partial --progress --rsh='ssh' -z -a . "${DESTINATION}"
+
+exit 0
