@@ -11,8 +11,7 @@ assets:
 exclude:
   - gems.rb
   - gems.locked
-  - README.md
-  - LICENSE
+  - scripts
 
 # simple_search: http://qwant.com/search
 markdown: kramdown
