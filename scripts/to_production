@@ -1,23 +1,38 @@
 #!/bin/sh
 
-set -x
 set -e
+[ -n "$DEBUG" ] && set -x
+
 
 JEKYLL=`which jekyll`
 RSYNC=`which rsync`
 DESTINATION="colin@boson.neyana.eu:~/www"
 
+
+UNCOMMITED=`git status --porcelain |wc -l`
+if [ $UNCOMMITED -gt 0  ]; then
+  echo "Commit your changes before deploying"
+  exit 1
+fi
+
+
 CURRENT=`git branch | grep '\*' | awk '{print $2}'`
-if [ "master" = "${CURRENT}" ]
-then
+TIMESTAMP=`date +"%s"`
+
+TAG="prod-${TIMESTAMP}"
+
+
+
+if [ "master" = "${CURRENT}" ]; then
   echo "already on master"
   exit 1
-else
-  git checkout master && \
-  (git pull origin master || (git checkout ${CURRENT} && exit 1)) && \
-  git merge --no-ff ${CURRENT} && \
-  git push -u origin master
 fi
+
+git checkout master && \
+(git pull origin master || (git checkout ${CURRENT} && exit 1)) && \
+git merge --no-ff ${CURRENT} && \
+gitgit tag ${TAG} && git push origin tag ${TAG}
+git push -u origin master
 
 JEKYLL_ENV=production $JEKYLL build && \
   cd _site && \
