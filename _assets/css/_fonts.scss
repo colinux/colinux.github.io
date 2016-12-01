@@ -1,0 +1,44 @@
+$font-serif: 'PT Serif';
+$font-code: 'Source Code Pro';
+
+@font-face {
+  font-family: $font-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: font_url('ptserif_400.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-serif;
+  font-style: italic;
+  font-weight: 400;
+  src: font_url('ptserif_400i.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: font_url('ptserif_700.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-serif;
+  font-style: italic;
+  font-weight: 700;
+  src: font_url('ptserif_700i.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-code;
+  font-style: normal;
+  font-weight: 400;
+  src: font_url('source_code_pro_400.woff') format('woff');
+}
+
+@font-face{
+  font-family: $font-code;
+  font-style: normal;
+  font-weight: 600;
+  src: font_url('source_code_pro_600.woff') format('woff');
+}

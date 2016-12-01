@@ -1,0 +1,22 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="theme-color" content="hsl(35, 36%, 95%)">
+  <title>{% if page.meta_title %}{{ page.meta_title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  {% capture description %}{% if page.description %}{{ page.description }}{% elsif page.title %}{{ content | raw_content }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+  <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" />
+
+  {% capture kw %}{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}
+  <meta name="keywords" content="{{ kw | strip_html | condense_spaces }}" />
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="author" content="{{ site.author }}" />
+
+  <link href="/favicon.png" rel="icon">
+  {% css bootstrap.min.css %}
+  {% css main %}
+  {% css font-awesome.min.css %}
+
+</head>
