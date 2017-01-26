@@ -7,7 +7,7 @@ date:
 comments: false
 external-url:
 categories:
-abstract: Bonjour, je m'appelle Colin Darie et suis <strong>développeur d'applications web indépendant</strong> en utilisant des <strong>méthodologies agiles</strong> et avec des <strong>technologies robustes et pérennes</strong>.
+abstract: Bonjour, je m'appelle Colin Darie et suis <strong>développeur d'applications web indépendant et polyvalent</strong> en utilisant des <strong>méthodologies agiles</strong> et avec des <strong>technologies robustes et pérennes</strong>.
 ---
 
 ## Accompagnement et méthodologies

@@ -25,14 +25,15 @@ author: "Colin Darie"
 description: "Je suis un développeur web sénior indépendant, spécialisé dans Ruby et Ruby on Rails."
 keywords: "Web developer, developpeur web, ruby developer, rails developer, developpeur rails, developpeur ruby, ruby, rails, elm, javascript, js"
 biography: "Je suis un développeur web sénior indépendant, spécialisé dans Ruby et Ruby on Rails.<br />Je suis également formateur sur ces technologies au <a href='http://lewagon.com/fr/aix-marseille'>Wagon Aix-Marseille</a>."
-colophon: "© 2016 Colin Darie<br>Thème <a href='http://jekyllrb.com/' rel='nofollow'>Jekyll</a> développé par <a href='https://github.com/hugoferreira/papyrus-theme' rel='nofollow'>Hugo Sereno Ferreira</a>"
+colophon: "© 2017 Colin Darie<br>Thème <a href='http://jekyllrb.com/' rel='nofollow'>Jekyll</a> développé par <a href='https://github.com/hugoferreira/papyrus-theme' rel='nofollow'>Hugo Sereno Ferreira</a>"
 
 baseurl: ""
 url: "https://colindarie.fr"
 
-email: pro*at*colindarie.fr
+email: colin*at*darie.eu
 twitter_username: colinux
-github_username:
+github_username: colinux
 linkedin_username: colin-darie
 facebook_username:
+instagram_username: colinux
 google-analytics: UA-88266840-1

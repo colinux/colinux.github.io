@@ -19,7 +19,7 @@
           {% if site.github_username %}
           <div>
             <i class="fa fa-fw fa-github"></i>
-            <a href="https://github.com/{{ site.github_username }}" rel="nofollow exte">
+            <a href="https://github.com/{{ site.github_username }}" rel="me nofollow">
               {{ site.github_username }}
             </a>
           </div>
@@ -27,7 +27,7 @@
           {% if site.twitter_username %}
           <div>
             <i class="fa fa-fw fa-twitter"></i>
-            <a href="https://twitter.com/{{ site.twitter_username }}" rel="nofollow">
+            <a href="https://twitter.com/{{ site.twitter_username }}" rel="me nofollow">
                @{{ site.twitter_username }}
             </a>
           </div>
@@ -40,10 +40,11 @@
             </a>
           </div>
           {% endif %}
-          {% if site.facebook_username %}
+          {% if site.instagram_username %}
           <div>
-            <a href="https://www.facebook.com/{{ site.facebook_username }}" rel="nofollow">
-              <span class="username">facebook//{{ site.facebook_username }}</span>
+            <i class="fa fa-fw fa-instagram"></i>
+            <a href="https://www.instagram.com/{{ site.instagram_username }}" rel="me nofollow">
+              <span class="username">{{ site.instagram_username }}</span>
             </a>
           </div>
           {% endif %}

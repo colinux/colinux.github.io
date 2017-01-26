@@ -31,7 +31,7 @@ fi
 git checkout master && \
 (git pull origin master || (git checkout ${CURRENT} && exit 1)) && \
 git merge --no-ff ${CURRENT} && \
-gitgit tag ${TAG} && git push origin tag ${TAG}
+git tag ${TAG} && git push origin tag ${TAG}
 git push -u origin master
 
 JEKYLL_ENV=production $JEKYLL build && \
