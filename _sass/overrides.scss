@@ -1,0 +1,19 @@
+@import "minima";
+
+h1 {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.site-title {
+  float: none;
+  line-height: 1em;
+}
+
+.site-subtitle {
+  color: $grey-color;
+  font-size: 20px;
+  margin-left: 1.5em;
+  font-weight: 200;
+  margin-bottom: 0.5em;
+}
