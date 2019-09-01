@@ -1,39 +1,19 @@
-gems:
-  - jekyll-assets
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
+title: Colin Darie
+subtitle: Développeur web et mobile indépendant expérimenté
+email: colin *at* darie.eu
+description: >- # this means to ignore newlines until "baseurl:"
+  Colin Darie est un développeur web fullstack et mobile expérimenté indépendant.
+  Il est spécialisé en Ruby on Rails pour le web, et React-Native
+  pour les applications mobiles.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://colindarie.fr" # the base hostname & protocol for your site, e.g. http://example.com
 
-assets:
-  sources:
-    - _assets/css
-    - _assets/fonts
-    - _assets/js
-
-exclude:
-  - gems.rb
-  - gems.locked
-  - scripts
-
-# simple_search: http://qwant.com/search
-markdown: kramdown
-highlighter: rouge
-permalink: /blog/:year/:month/:day/:title/
-
-
-# Site settings
-title: "Colin Darie, développeur web indépendant"
-author: "Colin Darie"
-description: "Je suis un développeur web sénior indépendant, spécialisé dans Ruby et Ruby on Rails."
-keywords: "Web developer, developpeur web, ruby developer, rails developer, developpeur rails, developpeur ruby, ruby, rails, elm, javascript, js"
-biography: "Je suis un développeur web sénior indépendant, spécialisé dans Ruby et Ruby on Rails.<br />Je suis également formateur sur ces technologies au <a href='http://lewagon.com/fr/aix-marseille'>Wagon Aix-Marseille</a>."
-colophon: "© 2017 Colin Darie<br>Thème <a href='http://jekyllrb.com/' rel='nofollow'>Jekyll</a> développé par <a href='https://github.com/hugoferreira/papyrus-theme' rel='nofollow'>Hugo Sereno Ferreira</a>"
-
-baseurl: ""
-url: "https://colindarie.fr"
-
-email: colin*at*darie.eu
 twitter_username: colinux
 github_username: colinux
-linkedin_username: colin-darie
-facebook_username:
-instagram_username: colinux
+
 google-analytics: UA-88266840-1
