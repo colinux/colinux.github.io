@@ -23,7 +23,7 @@ Je suis friand de **méthodologies agiles**, où le client est impliqué pendant
 ## Technologies
 
 ### Backend
-Je travaille principalement avec le language **Ruby** et le framework **Ruby on Rails**, **Sinatra** ou **Jekyll**, qui sont réputés pour leur fiabilité et leurs qualités. La richesse de leurs écosystèmes et le dynamisme de leurs communautés en font des technologies particulièrement adaptées pour concevoir des applications Web riches et durables et des API efficientes. C'est mon cœur de métier et le domaine que j'affectionne le plus.
+Je travaille principalement avec le language **Ruby** et les frameworks **Ruby on Rails**, **Sinatra** ou **Jekyll** en fonction des besoins, qui sont réputés pour leur fiabilité et leurs qualités. La richesse de leurs écosystèmes et le dynamisme de leurs communautés en font des technologies particulièrement adaptées pour concevoir des applications Web riches et durables et des API efficientes. C'est mon cœur de métier et le domaine que j'affectionne le plus.
 
 ### Fullstack
 J'interviens aussi régulièrement côté *front* sur le code **Javascript**, avec des frameworks comme **React** ou **Vue**, ou du vanilla JS.
@@ -42,7 +42,7 @@ Si vous souhaitez que nous travaillions ensemble, contactez-moi sur [{{ site.ema
 
 Dans mon parcours autodidacte, c'est avec PHP que j'ai fait mes premières armes au début des années 2000.
 
-En 2011 j'ai plongé dans l'univers Ruby et Rails en rejoignant *Autrement*, société spécialisée dans la réservation d'hébergements en ligne qui édite notamment *Hôtel à Paris*, *HotelHotel* et *RoomRoom*.
+En 2011 j'ai plongé dans l'univers Ruby et Rails en rejoignant *Autrement*, société spécialisée dans la réservation d'hébergements en ligne qui édite notamment *Hôtel à Paris*, et d'autres sites de réservation d'hôtel.
 
 Je suis devenu indépendant en 2016. J'ai été formateur Ruby et Ruby on Rails au *Wagon Aix-Marseille* et pour le compte d'*Ynov Aix-en-Provence*.
 
