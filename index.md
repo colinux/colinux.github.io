@@ -48,6 +48,10 @@ Je suis devenu indépendant en 2016. J'ai été formateur Ruby et Ruby on Rails 
 
 Depuis 2017, je développe presque à plein temps en équipe réduite l'application mobile **[Imparato](https://imparato.io){: rel="nofollow"}** et son API, dont je suis également l'un des 2 associés.
 
+## Formation
+
+J'ai fait des études de musique et obtenu un master de musicologie après un bac S. Pour le code, j'ai toujours été autodicate. Vous trouvez que ça n'a rien à voir ? Pas si vite : l'analyse musicale a aussi un aspect rigoureux et mathématique, et des parallèles sont souvent faits entre la création artistique et celle nécessaire à l'élaboration d'un projet numérique.
+
 ## Science, exploration spatiale & centres d'intérêts
 
-Si comme moi vous êtes curieux du monde qui nous entoure,  nous pourrons aussi bien causer astrobiologie, fusées, jardinage, musicologie, ou que sais-je encore.
+Si comme moi vous êtes curieux du monde qui nous entoure, nous pourrons aussi bien causer astrobiologie, fusées, jardinage, musicologie, ou que sais-je encore.
